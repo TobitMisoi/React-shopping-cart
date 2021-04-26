@@ -1,7 +1,8 @@
 // Feature 1
-import { Component } from "react";
-import data from "./data.json";
+import React from 'react'
 
+import { Component } from 'react'
+import data from './data.json'
 
 class App extends Component {
   constructor(props) {
@@ -16,28 +17,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <a href="/">
-            React Shopping Cart
-        </a>
+      <div className='App'>
+        <header className='App-header'>
+          <a href='/'>React Shopping Cart</a>
         </header>
         <main>
-          <div className="content">
-            <div className="main">
-              Product
-            </div>
-            <div className="sidebar">
-              Cart items
-            </div>
+          <div className='content'>
+            <div className='main'>Product</div>
+            <div className='sidebar'>Cart items</div>
           </div>
         </main>
-        <footer>
-          All Rights Reserved
-        </footer>
+        <footer>All Rights Reserved</footer>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
