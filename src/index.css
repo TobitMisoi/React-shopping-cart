@@ -1,32 +1,39 @@
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
-body,
-#root {
-  height: 100vh;
-  margin: 0;
+
+body, #root {
+    height: 100vh;
+    margin: 0;
 }
+
 .grid-container {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-  grid-template-rows: 5rem 1fr 5rem;
-  grid-template-columns: 1fr;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-columns: 1fr;
 }
+
 header {
     grid-area: header;
     background: #203040;
 }
+
 header a {
     color: #ffffff;
 }
+
 main {
     grid-area: main;
 }
+
 footer {
     grid-area: footer;
     background: #203040;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -1,0 +1,15 @@
+{
+    "products": [
+        {
+            "_id": "dress1",
+            "title": "Dress 1",
+            "image": "https://assets.vogue.com/photos/5f341f6f4721c86585cbb800/1:1/w_1079,h_1079,c_limit/fullsizeoutput_6bcd_1_1080x.jpg",
+            "description": "about dress 1",
+            "price": "19",
+            "availableSizes": [
+                "XL",
+                "XXL"
+            ]
+        }
+    ]
+}
