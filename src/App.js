@@ -1,13 +1,11 @@
 import React from 'react'
-import { Footer } from './components'
+import TestCart from './cart'
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'></header>
-      <main></main>
-      <Footer />
-    </div>
+    <>
+      <TestCart />
+    </>
   )
 }
 
